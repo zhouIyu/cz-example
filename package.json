@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "main": "index.js",
     "repository": "git@github.com:zhouIyu/cz-example.git",
-    "author": "周壮 <zhouzhuang@aiyunxiao.com>",
+    "author": "zhouIyu <zhouzhuang95@126.com>",
     "license": "MIT",
     "scripts": {
         "commit": "git-cz"
