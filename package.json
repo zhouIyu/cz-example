@@ -9,8 +9,16 @@
         "commit": "git-cz"
     },
     "devDependencies": {
+        "@commitlint/cli": "^9.1.1",
+        "@commitlint/config-conventional": "^9.1.1",
         "commitizen": "^4.1.2",
-        "cz-customizable": "^6.2.1"
+        "cz-customizable": "^6.2.1",
+        "husky": "^4.2.5"
+    },
+    "husky": {
+        "hooks": {
+            "commit-msg": "commitlint -e $GIT_PARAMS"
+        }
     },
     "config": {
         "commitizen": {

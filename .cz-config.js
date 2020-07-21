@@ -21,20 +21,20 @@ module.exports = {
             name: '💅 style:     代码格式调整'
         },
         {
-            value: '🛠 refactor',
-            name: '🛠 refactor:  重构,既不修复错误也不添加功能的代码更改'
+            value: '🛠  refactor',
+            name: '🛠  refactor:  重构,既不修复错误也不添加功能的代码更改'
         },
         {
-            value: '🏁 test',
-            name: '🏁 test:      添加测试代码'
+            value: '🏁  test',
+            name: '🏁  test:      添加测试代码'
         },
         {
-            value: '🗯 chore',
-            name: '🗯 chore:     构建工具,脚手架等更改'
+            value: '🗯  chore',
+            name: '🗯  chore:     构建工具,脚手架等更改'
         },
         {
-            value: '⏪ revert',
-            name: '⏪ revert:    代码回退'
+            value: '⏪  revert',
+            name: '⏪  revert:    代码回退'
         }
 
     ],
